@@ -12,22 +12,150 @@
 
 <body>
     <header class="header">
-        <div class="header__container container">
-            <div class="header__logo logo">
-                <picture class="logo__picture">
-                    <img src="assets/img/logo.png" alt="Логотип МВД" class="logo__img">
-                </picture>
-                <div class="logo__content">
-                    <p class="logo__title">МВД России</p>
-                    <p class="logo__text">Информационно справочный портал</p>
+        <div class="header__top">
+            <div class="header__top-container container">
+                <div class="header__logo logo">
+                    <picture class="logo__picture">
+                        <img src="assets/img/logo.png" alt="Логотип МВД" class="logo__img">
+                    </picture>
+                    <div class="logo__content">
+                        <p class="logo__title">МВД России</p>
+                        <p class="logo__text">Информационно справочный портал</p>
+                    </div>
+                </div>
+                <a href="#" class="header__btn btn-header">
+                    <img src="assets/img/header/lock.svg" alt="" class="btn-header__icon">
+                    <span class="btn-header__text">Войти</span>
+                </a>
+            </div>
+        </div>
+        <div class="header__bottom">
+            <div class="header__bottom-container container">
+                <nav class="header__nav">
+                    <ul class="header__menu">
+                        <li class="header__menu-item">
+                            <a href="" class="header__menu-link">
+                                <img src="assets/img/header/guide.png" alt="" class="header__menu-link-icon">
+                                <span class="header__menu-link-text">Адресно-тел. справочник</span>
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="" class="header__menu-link">
+                                <img src="assets/img/header/news.png" alt="" class="header__menu-link-icon">
+                                <span class="header__menu-link-text">Новости и события</span>
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="" class="header__menu-link">
+                                <img src="assets/img/header/surveys.png" alt="" class="header__menu-link-icon">
+                                <span class="header__menu-link-text">Опросы</span>
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="" class="header__menu-link">
+                                <img src="assets/img/header/faq.png" alt="" class="header__menu-link-icon">
+                                <span class="header__menu-link-text">Вопросы и ответы</span>
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="" class="header__menu-link">
+                                <img src="assets/img/header/info.png" alt="" class="header__menu-link-icon">
+                                <span class="header__menu-link-text">Справочная информация</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__search search">
+                    <input placeholder="Искать..." type="text" class="search__input">
+                    <button class="search__button">
+                        <img width="16" height="16" src="assets/img/header/search.png" alt="">
+                    </button>
                 </div>
             </div>
-            <a href="#" class="header__btn btn-header">
-                <img src="assets/img/header/lock.svg" alt="" class="btn-header__icon">
-                <span class="btn-header__text">Войти</span>
-            </a>
         </div>
     </header>
+
+    <div class="bradcrumbs">
+        <div class="bradcrumbs__container container">
+            <ul class="bradcrumbs__list">
+                <li class="bradcrumbs__item">
+                    <a href="" class="bradcrumbs__link">Главная страница</a>
+                </li>
+                <li class="bradcrumbs__item">
+                    <a href="" class="bradcrumbs__link active">Адресно-телефонный справочник</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <section class="guide">
+        <div class="guide__container container">
+            <h1 class="guide__title page-title">
+                Адресно-телефонный справочник
+            </h1>
+            <h2 class="guide__section-title sub-title">
+                Организационная структура
+            </h2>
+            <div class="guide__wrapper">
+                <ul class="guide__menu">
+                    <li class="guide__menu-item">
+                        <button class="guide__menu-btn">
+                            <span class="guide__menu-btn-top">
+                                <img src="assets/img/guide/mvd-logo.png" alt="" class="guide__menu-btn-img">
+                                <span class="guide__menu-btn-text">МВД России</span>
+                            </span>
+                        </button>
+                    </li>
+                    <li class="guide__menu-item">
+                        <button class="guide__menu-btn">
+                            <span class="guide__menu-btn-top">
+                                <img src="assets/img/guide/menu-item-1.png" alt="" class="guide__menu-btn-img">
+                                <span class="guide__menu-btn-text">По Центральному ФО</span>
+                                <span class="guide__menu-btn-plus">+</span>
+                            </span>
+                            <span class="guide__menu-btn-workers">11021 сотрудников</span>
+                        </button>
+                    </li>
+                    <li class="guide__menu-item">
+                        <button class="guide__menu-btn">
+                            <span class="guide__menu-btn-top">
+                                <img src="assets/img/guide/menu-item-2.png" alt="" class="guide__menu-btn-img">
+                                <span class="guide__menu-btn-text">По Южному ФО</span>
+                                <span class="guide__menu-btn-plus">+</span>
+                            </span>
+                            <span class="guide__menu-btn-workers">15 сотрудников</span>
+                        </button>
+                    </li>
+                    <li class="guide__menu-item">
+                        <button class="guide__menu-btn">
+                            <span class="guide__menu-btn-top">
+                                <img src="assets/img/guide/menu-item-3.png" alt="" class="guide__menu-btn-img">
+                                <span class="guide__menu-btn-text">По Северо-Кавказкому ФО</span>
+                                <span class="guide__menu-btn-plus">+</span>
+                            </span>
+                            <span class="guide__menu-btn-workers">16 сотрудников</span>
+                        </button>
+                    </li>
+                </ul>
+                <div class="guide__search">
+                    <div class="guide__search-top">
+                        <input placeholder="Найти сотрудника" type="text" class="guide__search-input">
+                        <div class="guide__search-sort">
+                            <p class="guide__search-sort-text">
+                                Сортировать
+                            </p>
+                            <select class="guide__search-sort-select">
+                                <option value="По должности">По должности</option>
+                                <option value="По должности">По алфавиту</option>
+                                <option value="По должности">По городу</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <main class="main"></main>
     <footer class="footer"></footer>
 </body>
