@@ -499,10 +499,11 @@ body {
 
 .sticker {
     padding: 5px 10px;
-    background-color: lightgrey;
+    background-color: #999;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 120%;
+    font-weight: 700;
     color: #fff;
     margin-right: 8px;
 }
@@ -515,7 +516,7 @@ body {
     font-size: 14px;
     line-height: 120%;
     font-style: italic;
-    color: lightgray;
+    color: #999;
 }
 
 .news__detail-title {
@@ -535,4 +536,237 @@ body {
     font-size: 16px;
     line-height: 120%;
     margin-bottom: 16px;
+}
+
+.news__img {
+    object-fit: cover;
+}
+
+/* poll */
+.poll__title {
+    margin-bottom: 40px;
+}
+
+.poll__block-title {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #2773AE;
+}
+
+.question-title {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 700;
+}
+
+.poll__question-label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    width: max-content;
+    cursor: pointer;
+}
+
+.poll__question-input {
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.poll__question-answer {
+    font-size: 16px;
+    line-height: 120%;
+}
+
+.poll__question-btn {
+    padding: 5px 10px;
+    font-size: 16px;
+    line-height: 120%;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, .4);
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.poll__block_margin {
+    margin-bottom: 40px;
+}
+
+.poll__statistics-block {
+    display: flex;
+    align-items: center;
+}
+
+.poll__statistics-progress {
+    padding: 5px 10px;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 120%;
+    margin-bottom: 8px;
+}
+
+.poll__statistics-progress:last-child {
+    margin-bottom: 0;
+}
+
+.poll__statistics-progress_1 {
+    background-color: rgba(22, 97, 162, .5);
+    border-radius: 5px;
+    min-width: 200px;
+}
+
+.poll__statistics-progress_2 {
+    background-color: rgba(255, 36, 0, .5);
+    border-radius: 5px;
+    min-width: 128px;
+}
+
+.poll__statistics-progress_3 {
+    background-color: rgba(255, 36, 0, .5);
+    border-radius: 5px;
+    min-width: 72px;
+}
+
+.poll__wrapper {
+    display: flex;
+}
+
+.poll__left {
+    margin-right: 40px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.poll__block_grow {
+    flex-grow: 1;
+}
+
+.poll__list-item {
+    margin-bottom: 20px;
+}
+
+.poll__list-item:last-child {
+    margin-bottom: 0;
+}
+
+.poll__list-link {
+    display: block;
+}
+
+.poll__list-question {
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: rgba(22, 97, 162, .5);
+}
+
+.poll__list-date {
+    padding-left: 10px;
+}
+
+/* questions */
+.questions__title {
+    margin-bottom: 40px;
+}
+
+.questions__wrapper {
+    max-width: 900px;
+}
+
+.question {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgba(119, 149, 177, .2);
+}
+
+.question:last-child {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.question__title {
+    margin-bottom: 20px;
+}
+
+.question__text {
+    font-size: 16px;
+    line-height: 120%;
+}
+
+.question__top {
+    margin-bottom: 20px;
+}
+
+.answer {
+    margin-left: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #E8EEF5;
+}
+
+.answer__position {
+    font-size: 16px;
+    line-height: 120%;
+    margin-bottom: 20px;
+}
+
+.answer__position_weight {
+    font-weight: 700;
+}
+
+.answer__text {
+    font-size: 16px;
+    line-height: 120%;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* reference */
+.reference__title {
+    margin-bottom: 40px;
+}
+
+.reference__sub-title {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #2773AE;
+}
+
+.reference__table-head {
+    display: flex;
+    background-color: #E8EEF5;
+}
+
+.reference__table-row {
+    display: flex;
+}
+
+.reference__table-column {
+    flex: 0 1 20%;
+    padding: 20px 10px;
+}
+
+.reference__table-text {
+    font-size: 16px;
+    line-height: 120%;
+}
+
+.reference__table-text_head {
+    font-weight: 700;
+}
+
+.file {
+    display: flex;
+    align-items: center;
+}
+
+.file__icon {
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    margin-right: 10px;
+}
+
+.file__link {
+    color: rgba(22, 97, 162, .5);
 }

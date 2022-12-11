@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/normilize.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Опросы</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="header__top-container container">
+                <div class="header__logo logo">
+                    <picture class="logo__picture">
+                        <img src="../assets/img/logo.png" alt="Логотип МВД" class="logo__img">
+                    </picture>
+                    <div class="logo__content">
+                        <p class="logo__title">МВД России</p>
+                        <p class="logo__text">Информационно справочный портал</p>
+                    </div>
+                </div>
+                <a href="#" class="header__btn btn-header">
+                    <img src="../assets/img/header/lock.svg" alt="" class="btn-header__icon">
+                    <span class="btn-header__text">Войти</span>
+                </a>
+            </div>
+        </div>
+        <div class="header__bottom">
+            <div class="header__bottom-container container">
+                <nav class="header__nav">
+                    <ul class="header__menu">
+                        <li class="header__menu-item">
+                            <a href="../index.html" class="header__menu-link">
+                                <img src="../assets/img/header/guide.png" alt="" class="header__menu-link-icon">
+                                <span class="header__menu-link-text">Адресно-тел. справочник</span>
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="../news/" class="header__menu-link">
+                                <img src="../assets/img/header/news.png" alt="" class="header__menu-link-icon">
+                                <span class="header__menu-link-text">Новости и события</span>
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="../poll/" class="header__menu-link">
+                                <img src="../assets/img/header/surveys.png" alt="" class="header__menu-link-icon">
+                                <span class="header__menu-link-text">Опросы</span>
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="../questions/" class="header__menu-link">
+                                <img src="../assets/img/header/faq.png" alt="" class="header__menu-link-icon">
+                                <span class="header__menu-link-text">Вопросы и ответы</span>
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="../reference/" class="header__menu-link">
+                                <img src="../assets/img/header/info.png" alt="" class="header__menu-link-icon">
+                                <span class="header__menu-link-text">Справочная информация</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__search search">
+                    <input placeholder="Искать..." type="text" class="search__input">
+                    <button class="search__button">
+                        <img width="16" height="16" src="../assets/img/header/search.png" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="bradcrumbs">
+        <div class="bradcrumbs__container container">
+            <ul class="bradcrumbs__list">
+                <li class="bradcrumbs__item">
+                    <a href="../index.html" class="bradcrumbs__link">Главная страница</a>
+                </li>
+                <li class="bradcrumbs__item">
+                    <a href="" class="bradcrumbs__link active">Опросы пользователей</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <main class="main">
+        <section class="poll">
+            <div class="poll__container container">
+                <h1 class="poll__title page-title">
+                    Опросы пользователей
+                </h1>
+                <div class="poll__wrapper">
+                    <div class="poll__left">
+                        <div class="poll__block poll__block_margin">
+                            <h3 class="poll__block-title sub-title">
+                                Текущий опрос
+                            </h3>
+                            <div class="poll__question">
+                                <p class="poll__question-title question-title">
+                                    Оскорбляет ли вас продажа советских советских орденов на интернет аукционах?
+                                </p>
+                                <label class="poll__question-label">
+                                    <input type="radio" name="poll" class="poll__question-input" checked>
+                                    <p class="poll__question-answer">Да, этот факт оскорбителен</p>
+                                </label>
+                                <label class="poll__question-label">
+                                    <input type="radio" name="poll" class="poll__question-input">
+                                    <p class="poll__question-answer">Нет, тут нет ничего оскорбитльного</p>
+                                </label>
+                                <label class="poll__question-label">
+                                    <input type="radio" name="poll" class="poll__question-input">
+                                    <p class="poll__question-answer">Затрудняюсь ответить</p>
+                                </label>
+                                <button class="poll__question-btn">Голосовать и смотреть результаты</button>
+                            </div>
+                        </div>
+                        <div class="poll__block">
+                            <h3 class="poll__block-title sub-title">
+                                Результаты последнего опроса
+                            </h3>
+                            <div class="poll__question">
+                                <p class="poll__question-title question-title">
+                                    Возможно ли сохранить циаилизованный и духовный код русского
+                                    народа в период модернизации?
+                                </p>
+                                <div class="poll__statistics">
+                                    <div class="poll__statistics-block">
+                                        <p class="poll__statistics-progress poll__statistics-progress_1">
+                                            Да
+                                        </p>
+                                        <p class="poll__statistics-text">
+                                            50% (184 чел.)
+                                        </p>
+                                    </div>
+                                    <div class="poll__statistics-block">
+                                        <p class="poll__statistics-progress poll__statistics-progress_2">
+                                            Нет
+                                        </p>
+                                        <p class="poll__statistics-text">
+                                            32% (117 чел.)
+                                        </p>
+                                    </div>
+                                    <div class="poll__statistics-block">
+                                        <p class="poll__statistics-progress poll__statistics-progress_3">
+                                            Не знаю
+                                        </p>
+                                        <p class="poll__statistics-text">
+                                            18% (66 чел.)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="poll__block poll__block_grow">
+                        <h3 class="poll__block-title sub-title">
+                            Архив опросов
+                        </h3>
+                        <ul class="poll__list">
+                            <li class="poll__list-item">
+                                <a href="" class="poll__list-link">
+                                    <p class="poll__list-question">
+                                        Много ли вы читаете серьезной литературы?
+                                    </p>
+                                    <p class="poll__list-date news__date">
+                                        8 февраля 2013, 15:43
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="poll__list-item">
+                                <a href="" class="poll__list-link">
+                                    <p class="poll__list-question">
+                                        Готовы ли вы больше платить за проживание в здании, являющимся историческим памятником?
+                                    </p>
+                                    <p class="poll__list-date news__date">
+                                        6 февраля 2013, 13:32
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="poll__list-item">
+                                <a href="" class="poll__list-link">
+                                    <p class="poll__list-question">
+                                        Какая версия гибели Сергея Есенина кажется Вам правдоподобной?
+                                    </p>
+                                    <p class="poll__list-date news__date">
+                                        3 февраля 2013, 16:38
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="poll__list-item">
+                                <a href="" class="poll__list-link">
+                                    <p class="poll__list-question">
+                                        Должны ли приехавшие в Россию соблюдать наши традиции и обычаи?
+                                    </p>
+                                    <p class="poll__list-date news__date">
+                                        1 февраля 2013, 12:21
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="poll__list-item">
+                                <a href="" class="poll__list-link">
+                                    <p class="poll__list-question">
+                                        Нужна ли государственная цензура в культуре?
+                                    </p>
+                                    <p class="poll__list-date news__date">
+                                        24 января 2013, 12:21
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="poll__list-item">
+                                <a href="" class="poll__list-link">
+                                    <p class="poll__list-question">
+                                        Конкурс красоты России, Монголии, Индии и Китая. Девушка какой страны займет первое место?
+                                    </p>
+                                    <p class="poll__list-date news__date">
+                                        24 января 2013, 12:21
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
